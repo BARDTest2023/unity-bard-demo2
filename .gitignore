@@ -1,21 +1,17 @@
-# Unity által generált, verziózásra nem szánt mappák
+# Unity cache + temp
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
-[Ll]ogs/
-[Uu]serSettings/
+[Bb]uilds/
+UserSettings/
 
-# OS-függő fájlok
+# OS files
 .DS_Store
 Thumbs.db
 
-# IDE fájlok
+# IDE / generated
 *.csproj
 *.sln
 *.user
 *.pidb
-
-# Unity Package cache
-Packages/packages-lock.json
-
 
