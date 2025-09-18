@@ -1,0 +1,31 @@
+{
+  "name": "unity-socketio-test-server",
+  "version": "1.0.0",
+  "description": "Simple Socket.IO test server for Unity development and testing",
+  "main": "test-socketio-server.js",
+  "scripts": {
+    "start": "node test-socketio-server.js",
+    "dev": "nodemon test-socketio-server.js",
+    "test": "node test-socketio-server.js"
+  },
+  "keywords": [
+    "socketio",
+    "unity",
+    "testing",
+    "adonisjs",
+    "websocket"
+  ],
+  "author": "Unity Socket.IO Test Server",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.4",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

@@ -1,0 +1,17 @@
+# Unity cache + temp
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uilds/
+UserSettings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / generated
+*.csproj
+*.sln
+*.user
+*.pidb
+
